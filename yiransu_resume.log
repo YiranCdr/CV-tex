@@ -1,15 +1,14 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.7.8)  30 AUG 2019 15:13
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.9.4)  20 JAN 2020 14:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **yiransu_resume.tex
 (./yiransu_resume.tex
-LaTeX2e <2018-04-01> patch level 2
-Babel <3.18> and hyphenation patterns for 31 language(s) loaded.
-(c:/texlive/2018/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(c:/texlive/2018/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+LaTeX2e <2018-12-01>
+(c:/texlive/2019/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+(c:/texlive/2019/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@section=\count81
@@ -23,19 +22,19 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(c:/texlive/2018/texmf-dist/tex/latex/base/latexsym.sty
+(c:/texlive/2019/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 )
-(c:/texlive/2018/texmf-dist/tex/latex/preprint/fullpage.sty
+(c:/texlive/2019/texmf-dist/tex/latex/preprint/fullpage.sty
 Package: fullpage 1999/02/23 1.1 (PWD)
 \FP@margin=\skip43
 )
-(c:/texlive/2018/texmf-dist/tex/latex/titlesec/titlesec.sty
-Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box26
+(c:/texlive/2019/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2019/07/16 v2.11 Sectioning titles
+\ttl@box=\box27
 \beforetitleunit=\skip44
 \aftertitleunit=\skip45
 \ttl@plus=\dimen103
@@ -45,63 +44,64 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthlast=\dimen106
 \titlewidthfirst=\dimen107
 )
-(c:/texlive/2018/texmf-dist/tex/latex/marvosym/marvosym.sty
+(c:/texlive/2019/texmf-dist/tex/latex/marvosym/marvosym.sty
 Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
 )
-(c:/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-(c:/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: xetex.def on input line 147.
 
-(c:/texlive/2018/texmf-dist/tex/latex/graphics-def/xetex.def
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-def/xetex.def
 File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
 )
-(c:/texlive/2018/texmf-dist/tex/latex/graphics/dvipsnam.def
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
-(c:/texlive/2018/texmf-dist/tex/latex/tools/verbatim.sty
+(c:/texlive/2019/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks15
 \verbatim@line=\toks16
 \verbatim@in@stream=\read1
 )
-(c:/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
-Package: enumitem 2011/09/28 v3.5.2 Customized lists
+(c:/texlive/2019/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
 \enitkv@toks@=\toks17
 \labelindent=\skip46
 \enit@outerparindent=\dimen108
 \enit@toks=\toks18
-\enit@inbox=\box27
-\enitdp@description=\count88
+\enit@inbox=\box28
+\enit@count@id=\count88
+\enitdp@description=\count89
 )
-(c:/texlive/2018/texmf-dist/tex/latex/makecell/makecell.sty
+(c:/texlive/2019/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 
-(c:/texlive/2018/texmf-dist/tex/latex/tools/array.sty
-Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
+(c:/texlive/2019/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \col@sep=\dimen109
-\ar@mcellbox=\box28
+\ar@mcellbox=\box29
 \extrarowheight=\dimen110
 \NC@list=\toks19
 \extratabsurround=\skip47
 \backup@length=\skip48
-\ar@cellbox=\box29
+\ar@cellbox=\box30
 )
 \rotheadsize=\dimen111
-\c@nlinenum=\count89
+\c@nlinenum=\count90
 \TeXr@lab=\toks20
 )
-(c:/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+(c:/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2019/06/12 v6.88h Hypertext links for LaTeX
 
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -111,15 +111,11 @@ Package ifluatex Info: LuaTeX not detected.
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
@@ -142,89 +138,89 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-(c:/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks21
 )
-(c:/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(c:/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
+(c:/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(c:/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen112
-\Hy@linkcounter=\count90
-\Hy@pagecounter=\count91
+\Hy@linkcounter=\count91
+\Hy@pagecounter=\count92
 
-(c:/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+(c:/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2019/06/12 v6.88h Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count92
+\Hy@SavedSpaceFactor=\count93
 
-(c:/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(c:/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4509.
-Package hyperref Info: Link nesting OFF on input line 4514.
-Package hyperref Info: Hyper index ON on input line 4517.
-Package hyperref Info: Plain pages OFF on input line 4524.
-Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Hyper figures OFF on input line 4550.
+Package hyperref Info: Link nesting OFF on input line 4555.
+Package hyperref Info: Hyper index ON on input line 4558.
+Package hyperref Info: Plain pages OFF on input line 4565.
+Package hyperref Info: Backreferencing OFF on input line 4570.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4762.
-\c@Hy@tempcnt=\count93
+Package hyperref Info: Bookmarks ON on input line 4803.
+\c@Hy@tempcnt=\count94
 
-(c:/texlive/2018/texmf-dist/tex/latex/url/url.sty
+(c:/texlive/2019/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5115.
+LaTeX Info: Redefining \url on input line 5156.
 \XeTeXLinkMargin=\dimen113
-\Fld@menulength=\count94
+\Fld@menulength=\count95
 \Field@Width=\dimen114
 \Fld@charsize=\dimen115
-Package hyperref Info: Hyper figures OFF on input line 6369.
-Package hyperref Info: Link nesting OFF on input line 6374.
-Package hyperref Info: Hyper index ON on input line 6377.
-Package hyperref Info: backreferencing OFF on input line 6384.
-Package hyperref Info: Link coloring OFF on input line 6389.
-Package hyperref Info: Link coloring with OCG OFF on input line 6394.
-Package hyperref Info: PDF/A mode OFF on input line 6399.
-LaTeX Info: Redefining \ref on input line 6439.
-LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count95
-\c@Item=\count96
-\c@Hfootnote=\count97
+Package hyperref Info: Hyper figures OFF on input line 6411.
+Package hyperref Info: Link nesting OFF on input line 6416.
+Package hyperref Info: Hyper index ON on input line 6419.
+Package hyperref Info: backreferencing OFF on input line 6426.
+Package hyperref Info: Link coloring OFF on input line 6431.
+Package hyperref Info: Link coloring with OCG OFF on input line 6436.
+Package hyperref Info: PDF/A mode OFF on input line 6441.
+LaTeX Info: Redefining \ref on input line 6481.
+LaTeX Info: Redefining \pageref on input line 6485.
+\Hy@abspage=\count96
+\c@Item=\count97
+\c@Hfootnote=\count98
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
-(c:/texlive/2018/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2018/02/06 v6.86b Hyperref driver for XeTeX
+(c:/texlive/2019/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2019/06/12 v6.88h Hyperref driver for XeTeX
 
-(c:/texlive/2018/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2018/02/06 v6.86b Hyperref: PDF Unicode definition (HO)
+(c:/texlive/2019/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2019/06/12 v6.88h Hyperref: PDF Unicode definition (HO)
 )
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/stringenc.sty
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/stringenc.sty
 Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
 )
 )
-\pdfm@box=\box30
-\c@Hy@AnnotLevel=\count98
-\HyField@AnnotCount=\count99
-\Fld@listcount=\count100
-\c@bookmark@seq@number=\count101
+\pdfm@box=\box31
+\c@Hy@AnnotLevel=\count99
+\HyField@AnnotCount=\count100
+\Fld@listcount=\count101
+\c@bookmark@seq@number=\count102
 
-(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(c:/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip49
 )
-(c:/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+(c:/texlive/2019/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
 \f@nch@headwidth=\skip50
 \f@nch@O@elh=\skip51
@@ -236,23 +232,23 @@ s
 \f@nch@O@olf=\skip57
 \f@nch@O@orf=\skip58
 )
-(c:/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2018/02/14 3.18 The Babel package
+(c:/texlive/2019/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2019/07/19 3.33 The Babel package
 
-(c:/texlive/2018/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2018/02/14 3.18 Babel switching mechanism
+(c:/texlive/2019/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2019/07/19 3.33 Babel switching mechanism
 )
-(c:/texlive/2018/texmf-dist/tex/generic/babel-english/english.ldf
+(c:/texlive/2019/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 
-(c:/texlive/2018/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2018/02/14 3.18 Babel common definitions
-\babel@savecnt=\count102
+(c:/texlive/2019/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2019/07/19 3.33 Babel common definitions
+\babel@savecnt=\count103
 \U@D=\dimen116
 
-(c:/texlive/2018/texmf-dist/tex/generic/babel/xebabel.def
-(c:/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def))
-\bbl@dirlevel=\count103
+(c:/texlive/2019/texmf-dist/tex/generic/babel/xebabel.def
+(c:/texlive/2019/texmf-dist/tex/generic/babel/txtbabel.def))
+\bbl@dirlevel=\count104
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
@@ -279,16 +275,16 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
 LaTeX Font Info:    ... okay on input line 81.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
 LaTeX Font Info:    ... okay on input line 81.
-\AtBeginShipoutBox=\box31
+\AtBeginShipoutBox=\box32
 Package hyperref Info: Link coloring OFF on input line 81.
 
-(c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+(c:/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count104
+\c@section@level=\count105
 )
 LaTeX Info: Redefining \ref on input line 81.
 LaTeX Info: Redefining \pageref on input line 81.
@@ -306,37 +302,43 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 84.
 LaTeX Font Info:    Try loading font information for U+lasy on input line 84.
 
-(c:/texlive/2018/texmf-dist/tex/latex/base/ulasy.fd
+(c:/texlive/2019/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 102.
+(Font)              <7> on input line 99.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 102.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 198.
- [1
+(Font)              <5> on input line 99.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 203.
+
+
+Package Fancyhdr Warning: \footskip is too small (0.0pt): 
+Make it at least 4.08003pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
-
-(./yiransu_resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 198.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 198.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 203.
+ (./yiransu_resume.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 203.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 203.
 Package rerunfilecheck Info: File `yiransu_resume.out' has not changed.
-(rerunfilecheck)             Checksum: D35E71110B4C01D8A02C54E26490CD1A.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 198.
+(rerunfilecheck)             Checksum: 11E572011A753FD820C9196B8F778798.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 203.
  ) 
 Here is how much of TeX's memory you used:
- 9713 strings out of 494017
- 134802 string characters out of 6162347
- 228039 words of memory out of 5000000
- 13576 multiletter control sequences out of 15000+600000
- 7447 words of font info for 39 fonts, out of 8000000 for 9000
- 714 hyphenation exceptions out of 8191
- 28i,13n,48p,239b,346s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 9849 strings out of 492909
+ 136959 string characters out of 6136300
+ 240273 words of memory out of 5000000
+ 13834 multiletter control sequences out of 15000+600000
+ 7455 words of font info for 40 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 28i,13n,48p,357b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on yiransu_resume.pdf (1 page).
