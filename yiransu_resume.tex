@@ -6,6 +6,7 @@
 
 \documentclass[letterpaper,11pt]{article}
 
+\usepackage{amssymb}
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
@@ -84,9 +85,8 @@
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{{}{\Large Yiran Su}} & 
   {6805 Wood Hollow Dr,}\\
-  {\href{mailto:yiransucdr@gmail.com}{yiransucdr@gmail.com}} & {Austin, TX,} \\
-  {\href{https://www.linkedin.com/in/su-yiran-a2a146129/}{linkedin.com/in/su-yiran-a2a146129}} & {78731} \\
-  {(512)-999-5939} & {}
+  {\href{mailto:yiransucdr@gmail.com}{$\lozenge$ yiransucdr@gmail.com}
+  \href{https://www.linkedin.com/in/su-yiran-a2a146129/}{$\lozenge$ LinkedIn account} $\lozenge$ (512)-999-5939} & {Austin, TX} 
 \end{tabular*}
 
 
@@ -95,7 +95,7 @@
   \resumeSubHeadingListStart
     \resumeSubheading
 		{University of Texas at Austin}{Austin, TX, USA}
-		{\makecell[tl]{\textbf{M.S.} in Engineering, \textbf{Software Engineering and System} track}}
+		{\makecell[tl]{\textbf{M.S.} in Engineering, \textbf{Software Engineering and System} track, ECE Dept. }}
 		{Aug. 2019 - May. 2021 (expected)}
 	\resumeSubheading
       {Sun Yat-sen University, School of Data and Computer Science}{Guangzhou, China}
@@ -128,12 +128,20 @@
       {Perceptual Intelligence Group}{Sept. 2018 - Mar. 2019}
       \resumeItemListStart
       	\resumeItem
-      	  {Developed a \textbf{pattern-based natural language parsing framework} in \textbf{Python} for a task-oriented Arena of Valor \textbf{chatbot} "Lu Bu (Lv, Bu)", with \textbf{less than 100 ms total delay} on average. }
+      	  {Developed a \textbf{pattern-based natural language parsing framework} in \textbf{Python} for a task-oriented Arena of Valor \textbf{chatbot} "Lu Bu (Lv, Bu)", while \textbf{reduced} the average latency by \textbf{27\%} to \textbf{less than 90 ms}.}
       	\resumeItem
-          {Deployed the above framework on a \textbf{Tornado} Server, which handled more than \textbf{100k related requests} one day. }
-        %\resumeItem
-          %{Designed a user log analyzer for the chatbot in \textbf{Python} to analyze customer stickiness under different usage scenarios.}
+          {Deployed the above framework on a \textbf{Tornado} Server, which handled more than \textbf{100k related requests} per day. }
+        \resumeItem
+          {Designed an \textbf{automatic} user log analyzer (\textbf{Python}) for the chatbot which is able to evaluate high frequency request, customer stickiness and new feature performance.}
       \resumeItemListEnd
+          \resumeSubheading
+      {Graduate Teaching Assistant}{Austin, TX}
+      {EE 422C Software Design and Implementation (\textbf{Java}) II }{Jan. 2020 - May. 2020 (expected)}
+      %\resumeItemListStart
+      %\resumeItem
+      %{Designed and graded assignments for more than 140 students. Held recitations for more than 40 students.}
+      
+      %\resumeItemListEnd
       \resumeSubHeadingListEnd
       
 %-----------PROJECT EXPERIENCE-----------------
@@ -144,37 +152,35 @@
 	{Course project for EE 382V: Advanced Programming Tools at University of Texas at Austin}{Sept 2019 - Dec 2019}
 	\resumeItemListStart
 	\resumeItem
-	{Participated this \textbf{full stack} project whose aim is to share book reviews. Users can create his/her own account, post book reviews, read reviews from others, subscribe certain categories and get corresponding update notifications. }
+	{Participated this \textbf{full stack} project which allows users to post their book reviews and share to other apps. Users can create their own account, post book reviews, read reviews from others, subscribe certain categories and get corresponding update notifications. }
 	\resumeItem
-	{Designed a \textbf{MongoDB} database with \textbf{PyMongo} as our project database. Provided whole set of operating APIs and \textbf{unit testing} methods.
+	{Designed a \textbf{MongoDB} database with \textbf{PyMongo} as our project database. Carried out \textbf{unit testing} for all APIs.
 	}
 	\resumeItem
 	{Developed an \textbf{MVC} backend with \textbf{Flask} \& \textbf{Flask-RESTful}. Used \textbf{Firebase Storage} to store uploaded photos. }
 	\resumeItem
 	{Accomplished \textbf{web} frontend with \textbf{HTML/CSS/Bootstrap} and embedded it into our Flask-RESTful backend.}
 	\resumeItem
-	{Applied \textbf{Kotlin} in our \textbf{Android} frontend. Designed a \textbf{reusable cardview template} using \textbf{Adapter} and \textbf{ViewHolder}. Utilized \textbf{Camera API} and \textbf{Location API} to provide our users with diverse uploading choices. Used \textbf{Volley} to handle review creation request.  }
+	{Applied \textbf{Kotlin} in our \textbf{Android} frontend. Designed a \textbf{reusable cardview template} as a public method for other team members. Utilized \textbf{Camera API} and \textbf{Location API} to provide our users with diverse uploading choices. Used \textbf{Volley} to handle review creation request.  }
 	\resumeItem
-	{Implemented the \textbf{React Native} frontend with \textbf{Expo}. Beside of the points mentioned in the Android part, we applied \textbf{preps, status, context} and \textbf{hook} to deliver message, while enabled \textbf{notification} and \textbf{sharing} based on Expo components. }
+	{Implemented the \textbf{React Native} frontend with \textbf{Expo}. Beside of the points mentioned in the Android part, we enabled \textbf{notification} and \textbf{sharing} based on Expo components. }
 	\resumeItemListEnd
 	
 	\resumeSubheading
-	{Consistency Regularization in NLP}{Austin, TX}
+	{Consistency Regularization (CR) in Natural Language Processing}{Austin, TX}
 	{Research project for LIN 393: Computational Linguistic at University of Texas at Austin}{Sept 2019 - Dec 2019}
 	\resumeItemListStart
 	\resumeItem
 	{Embeded the semi-supervised learning concept \textbf{consistency regularization} into supervised learning NLP tasks, in order to make the supervised model \textbf{more robust to it's predictions}. }
+	%\resumeItem
+	%{Proposed \textbf{random delete} (fast perturbation solution) and \textbf{paraphrase substitution} (semantical perturbation solution)to  perturb input data. }
 	\resumeItem
-	{Propsed \textbf{random delete} (fast perturbation solution) and \textbf{paraphrase substitution} (semantical perturbation solution)to  perturb input data. }
-	\resumeItem
-	{Implemented the \textbf{TextCNN} model on MR (Movie Review Data) binary classification dataset, with \textbf{PyTorch}. }	
-	\resumeItem
-	{Our model got a \textbf{77.06\%} score in precision compared with the baseline score 75.33\%.}
+	{Implemented the new \textbf{TextCNN-CR} model with \textbf{PyTorch}. Scored \textbf{77.06\%} in accuracy on MR (Movie Review Data) binary classification dataset, compared with the  75.33\% accuracy of original TextCNN model.}
 	\resumeItemListEnd
 
 \resumeSubheading
 {International Aerial Robotics Competition}{Guangzhou \& Beijing, China}
-{Computer Vision Group Member, \textbf{Innovative Design Award}}{Sept. 2017 - Aug. 2018}
+{ \textbf{Innovative Design Award}, Computer Vision Group member}{Sept. 2017 - Aug. 2018}
 \resumeItemListStart
 
 \resumeItem
