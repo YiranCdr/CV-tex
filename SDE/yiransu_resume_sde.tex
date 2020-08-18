@@ -29,8 +29,8 @@
 \addtolength{\oddsidemargin}{-0.5in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
-\addtolength{\textheight}{1.0in}
+\addtolength{\topmargin}{-.75in}
+\addtolength{\textheight}{1.5in}
 
 \urlstyle{same}
 
@@ -66,6 +66,13 @@
 	\end{tabular*}\vspace{-5pt}
 }
 
+\newcommand{\internSubheading}[2]{
+	\vspace{-1pt}\item
+	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+	\end{tabular*}\vspace{-5pt}
+}
+
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
 
 \renewcommand{\labelitemii}{$\circ$}
@@ -74,6 +81,8 @@
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\pubItemListStart}{\begin{itemize}\setlength{\itemsep}{0pt} \setlength{\parsep}{0pt} \setlength{\parskip}{0pt}}
+\newcommand{\pubItemListEnd}{\end{itemize}}
 
 %-------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -92,25 +101,26 @@
 
 %-----------EDUCATION-----------------
 \section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-		{University of Texas at Austin}{Austin, TX, USA}
-		{\makecell[tl]{\textbf{M.S.} in Engineering, \textbf{Software Engineering \& System} track, ECE Dept. \textbf{GPA}: 3.73}}
-		{Aug. 2019 - May. 2021}
-	\resumeSubheading
-      {Sun Yat-sen University, School of Data and Computer Science}{Guangzhou, China}
-      {\makecell[tl]{\textbf{B.E.} in Network Engineering~~~ 
-      \textbf{Overall GPA}: 3.85/5.00, \textbf{Junior GPA}: 4.25/5.00\\
-  	  \textbf{Course Highlights}: C++ programming, Data Structure and Algorithms, \\
-  	  Operating System, Computer Network, Web Programming, Mobile Internet Programming Project}}
-      {Aug. 2015 - Jun. 2019}
-  \resumeSubHeadingListEnd
+	\resumeSubHeadingListStart
+		\resumeSubheading
+			{University of Texas at Austin}{Austin, TX, USA}
+			{\makecell[tl]{\textbf{M.S.} in Engineering, \textbf{Software Engineering and System} track, ECE Dept. \textbf{GPA}: 3.73/4 }}
+			{Aug. 2019 - May. 2021}
+		\resumeSubheading
+			{Sun Yat-sen University, School of Data and Computer Science}{Guangzhou, China}
+			{\makecell[tl]{\textbf{B.E.} in Network Engineering~~~ 
+			\textbf{Overall GPA}: 3.85/5.00, \textbf{Junior GPA}: 4.25/5.00 }}
+			{Aug. 2015 - Jun. 2019}
+			\resumeItemListStart
+			\resumeItem 
+				{\textbf{Course Highlights} Data Structure \& Algorithms, Operating System, Computer Network, Web Programming}
+			\resumeItemListEnd
+\resumeSubHeadingListEnd
 
 %-----------SKILLS-----------------
-\section{SKILLS}
-\textbf{Programming Language~}{C++, Python, Java, HTML5, CSS, JavaScript, Kotlin, Shell, SQL}\\
+\section{Skills}
+\textbf{Programming Language~}{C++, Python, Java, HTML, CSS, JavaScript, Kotlin, Shell, SQL, GoLang}\\
 \textbf{Framework and Tools~}{React Native, Flask, PyTorch, Tensorflow, Docker, MongoDB, Kubernetes}
-
 
 %-----------AWARDS AND HONORS-----------------
 %\section{Awards And Honors}
@@ -123,19 +133,19 @@
 %-----------WORK EXPERIENCE-----------------
 \section{Intern Experience}
   \resumeSubHeadingListStart
-  	\resumeSubheading
-  	{Coherent Logix Inc.}{Austin, USA}
-  	{Video, CV and Deep Learning Group}{May. 2020 - Aug. 2020}
+  	\internSubheading
+  	{Coherent Logix Inc.}{May. 2020 - Aug. 2020, Austin, USA}
   	\resumeItemListStart
   	\resumeItem
-  	{Explored \textbf{nerual network quantization} topics that convert a floating-point nerual network to an integer-based nerual network, in order to lower required calculation resource.}
+  	{Explored \textbf{nerual network quantization} topics which is able to simplify the original model while keep the original model precision and leverage RAM \& power \& time consumption.}
   	\resumeItem
-  	{Applied \textbf{16 bits} Quantization Aware Training (\textbf{QAT}) and Post-training Quantization (\textbf{PQ}) for ResNet, SqueezeNet and MobileNet with \textbf{Tensorflow 2} (In progress).}
+  	{Applied \textbf{16/8/4-bit} Quantization Aware Training (\textbf{QAT}) for \textbf{ResNet} and \textbf{MobileNet} with \textbf{Tensorflow 2} and controlled model accuracy drop within \textbf{3\%} for 16/8-bit quantization circumstances.}
+  	\resumeItem
+  	{Developed a set of \textbf{QAT generation \& validation APIs} which enables transform from a non-QATed model to a QATed model and \textbf{compatible} with all sequential/functional models(self-defined, loaded, Keras-imported, etc.).}
   	\resumeItemListEnd
   	
-    \resumeSubheading
-      {Tencent Inc.}{Shenzhen, China}
-      {Perceptual Intelligence Group}{Sept. 2018 - Mar. 2019}
+    \internSubheading
+      {Tencent Inc.}{Sept. 2018 - Mar. 2019, Shenzhen, China}
       \resumeItemListStart
       	\resumeItem
       	  {Developed a \textbf{pattern-based natural language parsing framework} in \textbf{Python} for a task-oriented Arena of Valor \textbf{chatbot} "Lu Bu (Lv, Bu)", while \textbf{reducing} the average latency by \textbf{27\%} to \textbf{less than 90 ms}.}
@@ -159,50 +169,38 @@
 	\resumeSubHeadingListStart
 	\resumeSubheading
 	{Share Your Review}{Austin, TX}
-	{Course project for EE 382V: Advanced Programming Tools at University of Texas at Austin}{Sept 2019 - Dec 2019}
+	{Course project for EE 382V: Advanced Programming Tools at the University of Texas at Austin}{Sept 2019 - Dec 2019}
 	\resumeItemListStart
-	\resumeItem
-	{Participated this \textbf{full stack} project which allows users to post their book reviews and share to other apps. Users can create their own account, post book reviews, read reviews from others, subscribe certain categories and get corresponding update notifications. }
+	%\resumeItem
+	%{Participated this \textbf{full stack} project which allows users to post their book reviews and share to other apps. Users can create their own account, post book reviews, read reviews from others, subscribe certain categories and get corresponding update notifications. }
 	\resumeItem
 	{Designed a \textbf{MongoDB} database with \textbf{PyMongo} as our project database. Carried out \textbf{unit testing} for all APIs.
 	}
 	\resumeItem
-	{Developed an \textbf{MVC} backend with \textbf{Flask} \& \textbf{Flask-RESTful}. Used \textbf{Firebase Storage} to store uploaded photos. }
+	{Developed an \textbf{MVC}-structure backend with \textbf{Flask} \& \textbf{Flask-RESTful}. Used \textbf{Firebase Storage} to store uploaded photos. }
 	\resumeItem
-	{Accomplished \textbf{web} frontend with \textbf{HTML/CSS/Bootstrap} and embedded it into our Flask-RESTful backend.}
+	{Accomplished a \textbf{web} frontend with \textbf{HTML/CSS/Bootstrap} and embedded it into our Flask-RESTful backend.}
 	\resumeItem
 	{Applied \textbf{Kotlin} in our \textbf{Android} frontend. Designed a \textbf{reusable cardview template} as a public method for other team members. Utilized \textbf{Camera API} and \textbf{Location API} to provide our users with diverse uploading choices. Used \textbf{Volley} to handle review creation request.  }
 	\resumeItem
-	{Implemented the \textbf{React Native} frontend with \textbf{Expo}. Beside of the points mentioned in the Android part, we enabled \textbf{notification} and \textbf{sharing} based on Expo components. }
+	{Implemented the \textbf{React Native} frontend with \textbf{Expo}. Beside of the points mentioned in the Android part, we enabled \textbf{notification} and \textbf{sharing} features based on Expo components. }
 	\resumeItemListEnd
 	
-	\resumeSubheading
-	{Consistency Regularization (CR) in Natural Language Processing}{Austin, TX}
-	{Research project for LIN 393: Computational Linguistic at University of Texas at Austin}{Sept 2019 - Dec 2019}
-	\resumeItemListStart
-	\resumeItem
-	{Embeded the semi-supervised learning concept \textbf{consistency regularization} into supervised learning NLP tasks, in order to make the supervised model \textbf{more robust to it's predictions}. }
-	%\resumeItem
-	%{Proposed \textbf{random delete} (fast perturbation solution) and \textbf{paraphrase substitution} (semantical perturbation solution)to  perturb input data. }
-	\resumeItem
-	{Implemented the new \textbf{TextCNN-CR} model with \textbf{PyTorch}. Scored \textbf{77.06\%} in accuracy on MR (Movie Review Data) binary classification dataset, compared with the  75.33\% accuracy of original TextCNN model.}
-	\resumeItemListEnd
 
-\resumeSubheading
-{International Aerial Robotics Competition}{Guangzhou \& Beijing, China}
-{ \textbf{Innovative Design Award}, Computer Vision Group member}{Sept. 2017 - Aug. 2018}
-\resumeItemListStart
-
-\resumeItem
-{Designed an object \textbf{detection} and \textbf{location} system for an aerial robot.}
-\resumeItem
-{Constructed an \textbf{SVM} ground robot detector in \textbf{C++} for our system by writing a \textbf{self-implemented} Histogram of Oriented Gradient descriptor (\textbf{HOG descriptor}) and applying \textbf{OpenCV}’s related packages.}
-
-\resumeItemListEnd	  
+	  
   \resumeSubHeadingListEnd
   
-  
-
+%%-----------PUBLICATION-----------------
+\section{Publications}
+Manor, L., \textbf{Su, Y.}, et al. "\textbf{What is FAFSA? Interpreting non-technical jargon in domain-specific text}", COLING 2020, submitted.  
+\pubItemListStart
+	\resumeItem 
+	{Introduced a FASFA \textbf{jargon-definition-context dataset} which enable further research for this common but incomprehensible (especially for outsiders) linguistic phenomenon.} 
+	%\resumeItem{Proved a key feature of jargon that jargon phrases are more "supprising" in context by applying \textbf{micro \& macro T-test} for the \textbf{GPT loss distribution} across jargons \& non-jargons.}
+	\resumeItem{Proved the \textbf{computational linguistic association} between jargons, jargon definitions and corresponding context based on average \textbf{BERT pretrained embeddings} and made it learnable by using a simple \textbf{bi-linear model}.  }
+	
+	
+\pubItemListEnd
 %
 %--------PROGRAMMING SKILLS------------
 %\section{Programming Skills}
