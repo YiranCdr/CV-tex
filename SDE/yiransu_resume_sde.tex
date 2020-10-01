@@ -4,6 +4,11 @@
 % License : MIT
 %------------------------
 
+%-------------------------
+% To change the vertical indent between items/sections, modify "\vspace" for corresponding objs. 
+% To change top indent, modify "\addtolength{\topmargin}{-.65in}"
+%-------------------------
+
 \documentclass[letterpaper,11pt]{article}
 
 \usepackage{amssymb}
@@ -18,7 +23,6 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
-
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
 \fancyfoot{}
@@ -29,7 +33,7 @@
 \addtolength{\oddsidemargin}{-0.5in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.75in}
+\addtolength{\topmargin}{-.65in}
 \addtolength{\textheight}{1.5in}
 
 \urlstyle{same}
@@ -40,16 +44,17 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
+  \vspace{-10pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 %-------------------------
 % Custom commands
 \newcommand{\resumeItem}[1]{
   \item\small{
-    {#1}
+    {#1 \vspace{-2pt}}
   }
 }
+
 
 \newcommand{\resumeSubheading}[4]{
   \vspace{-1pt}\item
@@ -70,7 +75,7 @@
 	\vspace{-1pt}\item
 	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
 		\textbf{#1} & #2 \\
-	\end{tabular*}\vspace{-5pt}
+	\end{tabular*}\vspace{-6.5pt}
 }
 
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
@@ -82,7 +87,7 @@
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 \newcommand{\pubItemListStart}{\begin{itemize}\setlength{\itemsep}{0pt} \setlength{\parsep}{0pt} \setlength{\parskip}{0pt}}
-\newcommand{\pubItemListEnd}{\end{itemize}}
+\newcommand{\pubItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 %-------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -148,47 +153,57 @@
       {Tencent Inc.}{Sept. 2018 - Mar. 2019, Shenzhen, China}
       \resumeItemListStart
       	\resumeItem
-      	  {Developed a \textbf{pattern-based natural language parsing framework} in \textbf{Python} for a task-oriented Arena of Valor \textbf{chatbot} "Lu Bu (Lv, Bu)", while \textbf{reducing} the average latency by \textbf{27\%} to \textbf{less than 90 ms}.}
+      	  {A \textbf{pattern-based natural language parsing framework} in \textbf{Python} for a \textbf{task-oriented} \textbf{chatbot}. }
       	\resumeItem
-          {Deployed the above framework on a \textbf{Tornado} Server, which handled more than \textbf{100k related requests} per day. }
+          {Deployed on \textbf{Tornado} Server, handled \textbf{100k+ related requests} per day, optimized with \textbf{27\% less lagency}.} 
         \resumeItem
-          {Designed an \textbf{automatic} user log analyzer (\textbf{Python}) for the chatbot which is able to evaluate high-frequency requests, customer stickiness and new feature performance.}
+          {An \textbf{automatic} log analyzer in \textbf{Python} to evaluate user behavior (customer stickiness, feature performance, etc.)}
       \resumeItemListEnd
-      \resumeSubheading
-      {Graduate Teaching Assistant}{Austin, USA}
-      {EE 422C Software Design and Implementation (\textbf{Java}) II }{Jan. 2020 - May. 2020}
+      \internSubheading
+      {Graduate Teaching Assistant}
+      {EE 422C (\textbf{Java}), UT-Austin,Jan. 2020 - May. 2020}
       \resumeItemListStart
       \resumeItem
-      {Held lectures (recitations) every week that cover polymorphism, lambda, stream, Java generic, multithreading, JavaFX, and other most important Java features. }
-      \resumeItem{Designed and graded assignments \& exams, as well as particiated various teaching negotiations.}
-      
+      {Led \textbf{24 lectures} about the most \textbf{crucial} Java concepts, including polymorphism, generic, multithreading, etc. }
+      %\resumeItem{Designed and graded assignments \& exams, as well as participated in various teaching negotiations.}
       \resumeItemListEnd
       \resumeSubHeadingListEnd
       
 %-----------PROJECT EXPERIENCE-----------------
 \section{Project Experience}
 	\resumeSubHeadingListStart
-	\resumeSubheading
-	{Share Your Review}{Austin, TX}
-	{Course project for EE 382V: Advanced Programming Tools at the University of Texas at Austin}{Sept 2019 - Dec 2019}
+	\internSubheading
+	{Share Your Review}{Course project for EE 382V at UT-Austin, Sept 2019 - Dec 2019}
 	\resumeItemListStart
 	%\resumeItem
 	%{Participated this \textbf{full stack} project which allows users to post their book reviews and share to other apps. Users can create their own account, post book reviews, read reviews from others, subscribe certain categories and get corresponding update notifications. }
 	\resumeItem
-	{Designed a \textbf{MongoDB} database with \textbf{PyMongo} as our project database. Carried out \textbf{unit testing} for all APIs.
-	}
-	\resumeItem
-	{Developed an \textbf{MVC}-structure backend with \textbf{Flask} \& \textbf{Flask-RESTful}. Used \textbf{Firebase Storage} to store uploaded photos. }
+	{Backend: \textbf{MVC} structured \textbf{Flask} \& \textbf{Flask-RESTful}. \textbf{Firebase Storage} and \textbf{PyMongo} applied. }
 	\resumeItem
 	{Accomplished a \textbf{web} frontend with \textbf{HTML/CSS/Bootstrap} and embedded it into our Flask-RESTful backend.}
 	\resumeItem
-	{Applied \textbf{Kotlin} in our \textbf{Android} frontend. Designed a \textbf{reusable cardview template} as a public method for other team members. Utilized \textbf{Camera API} and \textbf{Location API} to provide our users with diverse uploading choices. Used \textbf{Volley} to handle review creation requests.  }
+	{Applied \textbf{Kotlin} in our \textbf{Android} frontend. Designed a \textbf{reusable cardview template} for the team. \textbf{Volley} to handle requests. Kotlin's \textbf{Camera \& Location API} applied.  }
 	\resumeItem
-	{Implemented the \textbf{React Native} frontend with \textbf{Expo}. Beside of the points mentioned in the Android part, we enabled \textbf{notification} and \textbf{sharing} features based on Expo components. }
+	{\textbf{React Native} frontend with \textbf{Expo}. Features include camera, location, \textbf{sharing} and \textbf{notification}.  }
 	\resumeItemListEnd
-	%\resumeSubheading{Distributed System Design}{Austin, TX}{Course project for MIT 6.824: Distributed Systems}{Aug 2020}
-	%\resumeItem{arg1}
 	
+	\internSubheading{Sun Yat-sen University Club Information Platform}{Mar 2018 - Jun 2018}
+	\resumeItemListStart
+	\resumeItem{\textbf{Android} frontend in \textbf{Java}. \textbf{Retrofit2} and \textbf{RxJava} applied. Web frontend in \textbf{HTML/CSS/JavaScript}. }		
+	\resumeItemListEnd
+	\internSubheading{2018 International Aerial Robotics Competition}{Computer Vision, Sept 2017 - Aug 2018}
+	\resumeItemListStart
+	\resumeItem{An \textbf{OpenCV(C++)}-based \textbf{SVM} (Support Vector Machine) implementation, with a self-implemented \textbf{HOG} (Histogram of Oriented Gradient) \textbf{descriptor}. }
+	\resumeItemListEnd
+	\internSubheading{Distributed System Design}{MIT 6.824 online open course, Currently under progress}
+	\resumeItemListStart
+	\resumeItem{Implementing \textbf{MapReduce} and \textbf{Raft} in \textbf{Go}. }		
+	\resumeItemListEnd
+	
+	
+	
+	
+
 
 	  
   \resumeSubHeadingListEnd
